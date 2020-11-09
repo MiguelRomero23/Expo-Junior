@@ -36,15 +36,7 @@ createUsers = () => {
     });
 };
 
-//Prueba de Enpoint createUsers
-//const{results,fields}=req.body(
-            //`INSERT INTO users (first_name, last_name, address, age, education_level) 
-                   //VALUES ("${userName}", "${userAge}", "${userEmail}", ${userAdress}, 
-            //);
-            //response.status(200).send({
-            //message: "Nuevo usuario agregado con exito",
-            //});
-            //});
+
             
 
 const usersRouter = newUserController();
